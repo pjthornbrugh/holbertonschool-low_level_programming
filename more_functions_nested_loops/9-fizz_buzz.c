@@ -3,7 +3,7 @@
  * Auth: Pilar J Thornbrugh
  */
 
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints the nums 1-100, but for mult of 3, fizz is printed instead of 3
