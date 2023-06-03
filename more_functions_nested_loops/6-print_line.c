@@ -9,7 +9,7 @@
  * print_line - this draws a straight line using the _ character.
  * @n: the number of _ characters to be printed.
  */
-void print_line(void)
+void print_line(int n)
 {
 	if (n <= 0)
 		_putchar('\n');
