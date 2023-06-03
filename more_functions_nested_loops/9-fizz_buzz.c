@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the nums 1-100, but for mult of 3, fizz is printed instead of 3
+ * main - prints the nums 1-100,but for mult of 3, fizz is printed instead of 3
  *	  for mult of 5, buzz is printed
  *	  for mult of both 3 and 5, fizzbuzz is printed
  *
@@ -16,9 +16,9 @@ int main(void)
 {
 	int num;
 
-	for (num = 1; num <=100; num++)
+	for (num = 1; num <= 100; num++)
 	{
-		if ((num % 3) == 0 && (num % 5) ==0)
+		if ((num % 3) == 0 && (num % 5) == 0)
 			printf("FizzBuzz");
 
 		else if ((num % 3) == 0)
@@ -30,7 +30,7 @@ int main(void)
 		else
 			printf("%d", num);
 
-		if ( num == 100)
+		if (num == 100)
 			continue;
 		printf(" ");
 	}
