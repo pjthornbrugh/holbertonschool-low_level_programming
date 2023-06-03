@@ -5,7 +5,7 @@
 
 #include "main.h"
 
-/*
+/**
  * print_sign - prints the sign of a number.
  * @n: the number of which the sign will print.
  *
