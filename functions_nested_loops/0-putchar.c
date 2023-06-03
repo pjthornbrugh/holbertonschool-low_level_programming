@@ -8,7 +8,7 @@
 #include "main.h"
 
 /**
- * _putchar - This prints '_putchar' followed by a new line.
+ * main - This prints '_putchar' followed by a new line.
  *
  * Return: always 0
  */
