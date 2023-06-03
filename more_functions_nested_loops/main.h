@@ -2,14 +2,11 @@
 #define MAIN_H
 
 /*
- * File: main.h
+ * File: main_h
  * Auth: Pilar
  * Desc: Header file containg declarations for all functions used in the nested_loops directory
  * 
  */
-
-#ifndef _MAIN_H
-#define _MAIN_H
 
 int _putchar(char c);
 void print_alphabet(void);
