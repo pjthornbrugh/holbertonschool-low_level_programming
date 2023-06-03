@@ -1,6 +1,3 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
 /*
  * File: 0_putchar
  * Auth: Pilar J Thornbrugh
