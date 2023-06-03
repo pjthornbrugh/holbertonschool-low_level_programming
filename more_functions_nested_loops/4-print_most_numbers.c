@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * print_numbers - prints 0-9 but not 2 and 4.
+ * print_most_numbers - prints 0-9 but not 2 and 4.
  */
 
 void print_most_numbers(void)
