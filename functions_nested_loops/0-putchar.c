@@ -2,13 +2,13 @@
 #define HOLBERTON_H
 
 /*
- * File: holberton.h
+ * File: 0_putchar
  * Auth: Pilar J Thornbrugh
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - This prints _putchar followed by a new line.
