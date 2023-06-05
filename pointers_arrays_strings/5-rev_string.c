@@ -8,6 +8,8 @@
 /**
  * rev_string - reverses a string
  * @s: string getting reversed
+ *
+ * Return: void
  */
 void rev_string(char *s)
 {
