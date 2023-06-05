@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+
 /**
  * *_strcpy - copy the string pointed to by src inluding the null byte
  * to the buffer pointed to by dest.
