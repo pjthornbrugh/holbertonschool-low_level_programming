@@ -11,7 +11,7 @@
  *	   followed by a new line
  * @str: string being printed
  *
- * Return: void
+ * Return: ...
  */
 void puts2(char *str)
 {
