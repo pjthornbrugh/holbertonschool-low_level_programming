@@ -1,5 +1,5 @@
 /*
- * File: 9-strcpy.c
+ * File: 9.strcpy.c
  * Auth: Pilar J Thornbrugh
  */
 
