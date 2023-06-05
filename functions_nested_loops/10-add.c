@@ -1,6 +1,6 @@
 /*
  * File: 10-add.c
- * Auth: Pilar J Thornbrugh 
+ * Auth: Pilar J Thornbrugh
  */
 
 #include "main.h"
