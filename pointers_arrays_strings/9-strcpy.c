@@ -1,8 +1,3 @@
-/*
- * File: 9.strcpy.c
- * Auth: Pilar J Thornbrugh
- */
-
 #include "main.h"
 
 /**
