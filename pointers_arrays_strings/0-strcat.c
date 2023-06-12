@@ -1,8 +1,3 @@
-/*
- * File: 0-strcat.c
- * Auth: Pilar J Thornbrugh
- */
-
 #include "main.h"
 
 /**
