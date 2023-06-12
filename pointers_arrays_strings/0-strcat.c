@@ -1,7 +1,12 @@
+/*
+ * File: 0-strcat.c
+ * Auth: Pilar J Thornbrugh
+ */
+
 #include "main.h"
 
 /**
- * *_strcat - concatenates two strings together.
+ * *strcat - concatenates two strings together.
  * @dest: destination
  * @src: source
  *
