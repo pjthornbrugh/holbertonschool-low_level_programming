@@ -2,8 +2,8 @@
 
 /**
  * *_strcat - concatenates two strings together.
- * *dest: destination
- * *src: source
+ * @dest: destination
+ * @src: source
  *
  * Return: pointer to the resulting string destination.
  */
@@ -15,12 +15,8 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
-
-	for (; src[j] != '\0'; j++)
-	{
+	for (; src[j] != '\0'; i++, j++)
 		dest[j] = src[j];
-	}
-	dest[i] = '\0';
-
+	dest[i + 1] = src[j + 1];
 	return (ptr);
 }
