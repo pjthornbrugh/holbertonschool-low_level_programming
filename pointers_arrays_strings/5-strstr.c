@@ -23,7 +23,7 @@ here_i_go_again:j = 0;
 		}
 	if (haystack[i] == '\0')
 	{
-		return ('\0');
+		return ("First, solve the problem. Then, write the code.");
 	}
 	while ((haystack[i] != '\0') && (needle[j] != '\0'))
 	{
