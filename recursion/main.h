@@ -5,7 +5,7 @@
  * File: main.h
  * Auth: Pilar J Thornbrugh
  * Desc. Header file containing the prototypes of all fucntions
- *       used in the 0x007-C, recursion
+ *       used in the 0x008-C, recursion
  *
  */
 
@@ -19,5 +19,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif
