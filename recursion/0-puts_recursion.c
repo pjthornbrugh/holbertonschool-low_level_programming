@@ -6,19 +6,19 @@
  */
 
 /**
- * main - function that prints a string, followed by a \n.
- *
- * Return: 0
+ * _puts_recursion  - prints a string, followed by a \n.
+ * @s: string
+ * 
  */
 
 void _puts_recursion(char *s);
-
 {
-	if (*s == '\0')
+	if (*s == 0)
 	{
-		putchar ('\n');
+		_putchar('\n');
 		return;
-	}
-	putchar (*s);
-	_puts_recurion(s + 1);
+	}		
+	
+	_putchar(*s);
+	_puts_recurion(++s);
 }
