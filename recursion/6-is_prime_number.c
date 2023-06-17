@@ -1,7 +1,7 @@
 #include "main.h"
 
  /**
- * prime_function - auxiliary function.
+ * prime_function(int n, int i) - auxiliary function.
  * @n: number to evaluate
  * @i: auxiliary var.
  *
