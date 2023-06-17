@@ -18,6 +18,7 @@ int prime_function(int n, int i)
 
 /**
  * is_prime_number - returns 1 if the input is a prime num.
+ * prime_funtion - auxiliary function.
  * @n: the inputed number.
  *
  * Return: either 1 or 0.
