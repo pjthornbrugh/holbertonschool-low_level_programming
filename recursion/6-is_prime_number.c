@@ -1,5 +1,5 @@
 #include "main.h"
- 
+
  /**
  * prime_function - auxiliary function.
  * @n: number to evaluate
@@ -13,7 +13,7 @@ int prime_function(int n, int i)
 		return (1);
 	if ((n % i) == 0)
 		return (0);
-	return (prime_function(n, i-1));
+	return (prime_function(n, i - 1));
 }
 
 /**
