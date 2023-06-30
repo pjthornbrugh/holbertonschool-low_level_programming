@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * _stdup - returns a pointer to a newly allocated space in memory, which contains a copy
- *              of the string given as a parameter.
+ * _stdup - returns a pointer to a newly allocated space in memory,
+ *		which contains a copy of the string given as a parameter.
  * @str: the string being copied.
  *
  * Return: If NULL or insufficient memory is available - NULL.
@@ -12,24 +12,24 @@
  */
 char *_strdup(char *str)
 {
-        char *duplicate;
-        int index, len = 0;
+	char *duplicate;
+	int index, len = 0;
 
-        if (str == NULL)
-                return (NULL);
+ 	if (str == NULL)
+		return (NULL);
 
-        for (index = 0; str[index]; index++)
-                len++;
+	for (index = 0; str[index]; index++)
+		len++;
 
-        duplicate = malloc(sizeof(char) * (len + 1));
+	duplicate = malloc(sizeof(char) * (len + 1));
 
-        if (duplicate == NULL)
-                return (NULL);
+	if (duplicate == NULL)
+		return (NULL);
 
-        for (index = 0; str[index]; index++)
-                duplicate[index] = str[index];
+	for (index = 0; str[index]; index++)
+		duplicate[index] = str[index];
 
-        duplicate[len] = '\0';
+	duplicate[len] = '\0';
 
-        return (duplicate);
+	return (duplicate);
 }
