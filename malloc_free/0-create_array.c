@@ -4,7 +4,7 @@
 
 /**
  * create_array - creates an array of charaters, and initilizes it with a
- * 		  specific character.
+ *		  specific character.
  * @size: size of array.
  * @c: char to initialize the array.
  *
