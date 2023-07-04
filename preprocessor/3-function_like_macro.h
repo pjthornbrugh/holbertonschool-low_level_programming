@@ -1,5 +1,5 @@
-#ifndef ABS
-#define ABS
+#ifndef ABS_H
+#define ABS_H
 
 /*
  * main - writes a function like macro that computes the absolute value of a num.
