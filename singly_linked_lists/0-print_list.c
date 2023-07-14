@@ -11,7 +11,7 @@
  * Description: singly linked list node structure
  */
 
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
@@ -25,8 +25,8 @@ size_t print_list(const list_t *h);
 		{
 			printf("%s\n", h->str);
 		}
-		count++
-		h = h->str
+		count++;
+		h = h->next;
 	}
-	return count;
+	return (count);
 }	
