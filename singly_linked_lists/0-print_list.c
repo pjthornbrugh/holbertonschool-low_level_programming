@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
 
 /**
  * print_list - prints the element of a singly list
@@ -15,18 +16,16 @@ size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	while (h != NULL)
+	while (h)
 	{
-		if (h-> == NUll)
-		{
+		if (h->str)
 			printf("[0] (nil)\n");
-		}
 		else
-		{
 			printf("%s\n", h->str);
-		}
+
 		count++;
 		h = h->next;
 	}
 	return (count);
-}	
+	count++;
+}
