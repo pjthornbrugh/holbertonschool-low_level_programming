@@ -5,7 +5,7 @@
 
 /**
  * free_list - frees a linked list
- *
+ * @head: head of the linked list
  * return: nothing
  */
 
