@@ -4,9 +4,8 @@
 #include "string.h"
 
 /**
- * size_t - returns the number of elements in a linked list
+ * list_len - returns the number of elements in a linked list
  * @h: the pointer
- * @list_len: linked list in question
  *
  * Return: the number of elements
  */
