@@ -5,8 +5,8 @@
 
 /**
  * size_t - returns the number of elements in a linked list
- * @h - the pointer
- * @list_t - linked list in question
+ * @h: the pointer
+ * @list_len: linked list in question
  *
  * Return: the number of elements
  */
