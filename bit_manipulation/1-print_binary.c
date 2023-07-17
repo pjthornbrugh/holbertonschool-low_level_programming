@@ -6,6 +6,7 @@
  * @n: unisgned long int
  *
  * Return: the binary representation of said num.
+ */
 
 void print_binary(unsigned long int n)
 {
