@@ -10,7 +10,7 @@
  * Return: the converted number (success) or 0 (error)
  */
 
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int sum = 0;
 	unsigned int power = 1;
