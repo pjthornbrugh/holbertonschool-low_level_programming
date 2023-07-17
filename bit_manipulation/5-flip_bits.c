@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * flip_bit - returns the num of bits you would need to flip
+ * flip_bits - returns the num of bits you would need to flip
  * @n: base num
  * @m: num to trasform to
  * Return: the num of bits transformation needed
@@ -14,7 +14,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned int p = 0;
 	int len = (sizeof(num) * 8);
 
-	while ( len >= 0)
+	while (len >= 0)
 	{
 		if (num & 1)
 			p++;
