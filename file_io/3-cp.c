@@ -4,12 +4,12 @@
 /**
  * main - entry point
  * @argcount: argument count
- * @arrarg: array of argument
+ * @arg: array of argument
  *
  * Return: 0 on success
  */
 
-int main(int argcount, char *aarg[])
+int main(int argcount, char *arg[])
 {
 	int fd_from, fd_to, rd_stat, wr_stat;
 	mode_t perm = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
@@ -17,14 +17,14 @@ int main(int argcount, char *aarg[])
 
 	if (argcount != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
-	fd_from = open(aarg[1], O_RDONLY);
+	fd_from = open(arg[1], O_RDONLY);
 
 	if (fd_from == -1)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", aarg[1]), exit(98);
-	fd_to = open(aarg[2], O_CREAT | O_WRONLY | O_TRUNC, perm);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", arg[1]), exit(98);
+	fd_to = open(arg[2], O_CREAT | O_WRONLY | O_TRUNC, perm);
 
 	if (fd_to == -1)
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", aarg[2]), exit(99);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", arg[2]), exit(99);
 	rd_stat = 1;
 
 	while (rd_stat)
@@ -32,14 +32,14 @@ int main(int argcount, char *aarg[])
 		rd_stat = read(fd_from, buffer, BUFSIZE);
 
 		if (rd_stat == -1)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", aarg[1]), exit(98);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", arg[1]), exit(98);
 
 		if (rd_stat > 0)
 		{
 			wr_stat = write(fd_to, buffer, rd_stat);
 
 			if (wr_stat != rd_stat || wr_stat == -1)
-				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", aarg[2]), exit(99);
+				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", arg[2]), exit(99);
 		}
 	}
 
