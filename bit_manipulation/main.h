@@ -1,10 +1,11 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_h
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+int _putchar(char c);
 int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int set_bit(unsigned long int *n, unsigned int index);
