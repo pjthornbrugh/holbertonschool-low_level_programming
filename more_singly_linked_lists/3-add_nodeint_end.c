@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint_end _ adds a node at the end of a linked list
+ * add_nodeint_end - adds a node at the end of a linked list
  * @head: current place in list
  * @n: int to add to the list
  *
