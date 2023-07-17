@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * binary_to_unit - converts a binary num to an unsigned int.
+ * binary_to_uint - converts a binary num to an unsigned int.
  * @b: pointer to a string of 0 and 1 chars.
  *
  * Return: the converted number (success) or 0 (error)
