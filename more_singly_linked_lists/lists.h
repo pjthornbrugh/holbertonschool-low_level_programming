@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-typedef struct listint_s
+typedef struct listint_t
 {
 	int n;
 	struct listint_s *next;
