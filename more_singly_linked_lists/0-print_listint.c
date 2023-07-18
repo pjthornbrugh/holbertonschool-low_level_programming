@@ -4,7 +4,7 @@
 /**
  * print_listint - prints all the elements of a listt list
  * @h: singly linked list to print
- * @list_t: list
+ *
  * Return: num of nodes in listt
  */
 
